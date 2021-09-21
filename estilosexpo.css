@@ -1,0 +1,123 @@
+body {
+    background-color: white;
+   margin-top:40px;
+   padding: 0;
+}
+
+nav {
+    
+    font-family: 'Kaisei HarunoUmi', serif;
+    
+}
+
+.menuNav {
+    display: inline-flex;
+    width:100% ;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-color: black;
+    border-style:solid;
+    justify-content: right;
+}
+
+.navegacion {
+    padding: 10px 60px 10px 60px;
+}
+
+.logomenu {
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    float:left;
+}
+.navegacion a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+ 
+}
+
+.navegacion:hover {
+    background-color:silver;
+
+}
+.logo {
+  
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.mapa {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.datos {
+    display:inline-flex;
+    font-family: 'Karla', sans-serif;
+    background-color: darkgray;
+    margin-top: 30px;
+}
+
+.redes {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.about {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.copy {
+ border: solid;
+ border-color: black;
+ text-align: center;
+}
+
+.copy p{
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+.obras {
+    display: inline-flex;
+    margin-left: 30px;
+}
+
+.tituloexpo{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-top:solid;
+    border-bottom: solid;
+    border-color: black;
+}
